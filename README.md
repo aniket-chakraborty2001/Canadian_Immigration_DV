@@ -43,6 +43,21 @@ Also known as Area chart. It displays magnitude and proportion of multiple varia
 
 **3. Pie Chart:**
 
+Pie chart or pie hraph is a type of data visualization tool that is used to depict the percentage or proportion contribution of an item in any case. It can be percentage of students who scores more than 90 in maths, it can be proportion of teachers that played football etc. In this project, I created a pie chart to depict the percentage contribution of 6 Continets in Immigration data. To do this, first I group the data by the column **Continet** and get the total for each continent by using the .sum() methid on it. As discussed earlier, 6 continents are - **Asia**, **Africa**, **Europe**, **Latin America and Caribbean** and **Northern America**. By the pie chart it is evident that, the decreasing order of these continents are - **Asia(Highest Immigration)**, **Europe(Seconf highest)**, **Africa**, **Latin America and Caribbean** and lastly **Oceania(Lowest Immigration)**.
+
+**4. Comparitive Study of Immigration of World Powers:**
+
+In present day situation, some world power nation includes India, China, USA and UK. To better understand the immigration trend of these four countries and efficiently compare them I created a subplot in which I depict the line plots for each country. It is an easy way by **add_subplot()** method of **Matplotlib** package. In this method, I divide my plotting area into 4 symmetrical regions and then each region is used to plot each country graph.
+
+**5. Bubble Graph:**
+
+Generally use to predict and show if there exsits any hidden association or relationship between numerical variables. Generally it represents data using three variable. For the project, I created two bubble chart. The first one to compare India and Pakistan. The second one is to compare India and China. In both cases, the third variable is the Number of Immigrants. As the size of the circle increases, the number of Immigrants also increases.
+
+**6. Regression Plot:**
+
+A very effective way to understand the trend or relationship between two continuous variable. We can create a regression plot using **Matplotlib** and **Seaborn**. The main difference lies in coding. Using **Matplotlib**, to obtain regression plot, we require much lines of code compare to **Seaborn**. In **Seaborn**, we can do this using just one line. Here, I created a Regression plot for Total number of Immigrations that happens in Denmark, Norway and Sweden with years. Observe that we get a negative relationship. This means with years, the number of Immigrations decreases. 
+
+
 
 
 
