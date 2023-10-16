@@ -1,4 +1,4 @@
-959# Project Name: Canadina_Immigration_DV
+# Project Name: Canadina_Immigration_DV
 Consider the Canadian Immigration Data set. It is available in Github as well as Kaggle. Using this I perform data manipulation and based on that Data Visualization using python libraries. Libraries that are used here are - **numpy**, **matplotlib**, **pandas**, **seaborn** etc.
 
 ## Data Manipulation
